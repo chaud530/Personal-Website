@@ -1,20 +1,23 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Shikhar Chaudhary's Personal Website</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="utf-8">
+	<title>Shikhar Chaudhary's Personal Website</title>
+	<link rel="icon" type="image/x-icon" href="/src/favicon.ico">
+	
 </head>
 
 <body>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<div id="home">
 		<div id="topnav">
-			<a href="#home">Home</a>
-			<a href="#about">About</a>
-			<a href="#resume">Resume</a>
-			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
 		</div>
 	</div>
 	
@@ -23,11 +26,11 @@
 		<div class="homefont2">Computer Science Student | Software Developer</div>
 		<div class="homecontact">
 			<a href="tel:+61261003197">
-				<img src="images/Phone.png" alt="My phone number" style="width:8vh;height:8vh;"></a>
-			<a href="mailto:chaudhary.shikhar@gmail.com">
-				<img src="images/Email.png" alt="My email" style="width:8vh;height:8vh; padding: 0px 10vh 0px 10vh;"></a>
-			<a href="https://www.linkedin.com/in/shikharchaudhary/">
-				<img src="images/Linkedin.png" alt="My LinkedIn profile" style="width:8vh;height:8vh;"></a>
+				<img src="src/Phone.png" alt="My phone number" style="width:65px;height:65px;"></a>
+			<a href="mailto:chaudhary.shikhar@gmail.com" target="_blank">
+				<img src="src/Email.png" alt="My email" style="width:65px;height:65px; margin: 0px 10vh 0px 10vh;"></a>
+			<a href="https://www.linkedin.com/in/shikharchaudhary/" target="_blank">
+				<img src="src/Linkedin.png" alt="My LinkedIn profile" style="width:65px;height:65px;"></a>
 		</div>
 	</div>
 
@@ -36,30 +39,64 @@
 		<div class="subtitle">Let me introduce myself</div>
 		<div class="aboutinfo">
 			<div class = "picture">
-				<img src="images/Shikhar Pic.png" alt="Picture of Shikhar Chaudhary" title="That's me!" style="width:41vh;height:41vh;">
-				<!--<span class="dot"></span>-->
+				<img src="src/Shikhar Pic.png" alt="Picture of Shikhar Chaudhary" title="That's me!" style="width:325px;height:325px;">
 			</div>
-			<div class = "abouttext">I'm a student at Australian National University, expecting to graduate in March 2022. I will be completing my Bachelor's of Science in Computer Science with minors in Applied Statistics and Mathematics. I also spent 3 years of my degree studying in University of Illinois at Urbana-Champaign in the US.</div>
+			<div class = "abouttext">I'm a student at Australian National University, graduating in March 2022 with a Bachelor's of Science in Computer Science with minors in Applied Statistics and Mathematics. I spent 3 years of my degree studying in University of Illinois at Urbana-Champaign in the US and transferred to ANU during the pandemic.</div>
 			<div class = "abouttext">My primary interest lies in software design and development, specifically mobile app development and game development, and I have also worked on some professional and personal projects in these areas.</div>
-			<div class = "abouttext">I have lived all over the world, from Bahrain to Dubai, Syndey, Mumbai, Illinois and now, Canberra. Having lived in so many coutnries, I have also learnt to communicate in several languages. I am fluent in English and Hindi and am conversant in Spanish, French and Arabic.</div>
-			<div class = "abouttext">In my free time, I enjoy playing soccer and other sports, playing chess and strategy board games, and volunteering. I am also a member of MENSA.<br><br>
+			<div class = "abouttext">I have lived all over the world, from Bahrain to Dubai, Sydney, Mumbai, Illinois (USA) and now, Canberra. Having lived in so many countries, I have also learnt to communicate in several languages. I am fluent in English and Hindi and am conversant in Spanish, French and Arabic.</div>
+			<div class = "abouttext">In my free time, I enjoy playing soccer and other sports, playing chess and strategy board games, and volunteering. I am also a member of the MENSA Organization.<br><br>
 			</div>
 			
 		</div>
 		<div class="aboutinfo2">
 			<div class="profile" style="margin-right:6%">
-				<div class="aboutsubtitle">PROFILE</div><br>
-				<div class="profiletext">Currently, I'm seeking a full time software developer (including Game and Mobile App development) position in Australia. I am based in Canberra but I will be able and willing to relocate to any other cities.</div>
-				<div class="profiletext" style="padding-top:1vh;">I am dependable, hardworking and am a team player. I have a solution-oriented approach to solving technical or business problems and enjoy learning new skills. If you think I'm a good fit, please contant me via chaudhary.shikhar@gmail.com or at (+61) 02 6100 3197.</div>
-				<div class="profiletext" style="font-size:2.5vh; font-weight: 900; color: #999;">Full Name</div>
-				<div class="profiletext" style="padding-top: 0; font-weight: 900">Shikhar Vinay Chaudhary</div>
-				<div class="profiletext" style="font-size:2.5vh; font-weight: 900; color: #999;">Citizenship</div>
-				<div class="profiletext" style="padding-top: 0; font-weight: 900;">Australian</div>			
+				<div class="aboutsubtitle">PROFILE</div>
+				<div class="profiletext" style="margin-top: 20px;">Currently, I'm seeking a full time software developer (including Game and Mobile App development) position in Australia. I am based in Canberra but am open to relocating elsewhere.</div>
+				<div class="profiletext" style="padding-top:8px;">I am dependable, hardworking and am a team player. I have a solution-oriented approach to solving technical or business problems and enjoy learning new skills. If you think I'm a good fit, please contant me via chaudhary.shikhar@gmail.com or at (+61) 02 6100 3197.</div>
+				<div class="profiletext" style="font-size:20px; font-weight: 900; color: #999;">Full Name</div>
+				<div class="profiletext" style="font-size:18px;padding-top: 0; font-weight: 900">Shikhar Vinay Chaudhary</div>
+				<div class="profiletext" style="font-size:20px; font-weight: 900; color: #999;">Citizenship</div>
+				<div class="profiletext" style="font-size:18px;padding-top: 0; font-weight: 900;">Australian</div>			
 			</div>
 			
 			<div class="profile">
-				<div class="aboutsubtitle">SKILLS</div>	
-					<div class="subtitle" style="color: #fff; margin-top: 20vh;">Currently in development...</div>
+				<div class="aboutsubtitle">SKILLS</div>
+				<div class="profiletext"></div>
+				
+				<div class="skilltitle">PYTHON</div>
+				<div class="container">
+					<div class="skills90">90%</div>
+				</div>
+
+				<div class="skilltitle">JAVA</div>	
+				<div class="container">
+					<div class="skills90">90%</div>
+				</div>
+				
+				<div class="skilltitle">MS SUITE</div>	
+				<div class="container">
+					<div class="skills90">90%</div>
+				</div>
+				
+				<div class="skilltitle">C++</div>	
+				<div class="container">
+					<div class="skills80">80%</div>
+				</div>
+				
+				<div class="skilltitle">C#</div>	
+				<div class="container">
+					<div class="skills70">70%</div>
+				</div>
+				
+				<div class="skilltitle">HTML/CSS</div>	
+				<div class="container">
+					<div class="skills70">70%</div>
+				</div>
+				
+				<div class="skilltitle">R (programming language)</div>	
+				<div class="container">
+					<div class="skills60">60%</div>
+				</div>
 			</div>
 		</div>	
 	</div>
@@ -68,82 +105,76 @@
 		<div class="title">Resume</div>
 		<div class="subtitle">My work experience, education and leadership experience</div>
 		<div class="resumeinfo">
-			<div class="aboutinfo2" style="padding-bottom: 0vh;">
-				<div class="profile" style="margin-right:6%; margin-bottom: 0vh">
+			<div class="aboutinfo2">
+				<div class="profile" style="margin-right:6%; margin-bottom: 50px">
 					<div class="aboutsubtitle">EXPERIENCE</div>
 					
 					<div class="resumecompany">Research Intern @ Ideal MCS, Dubai</div>
 					<div class="resumedate">March 2021 - May 2021</div>
-					<div class="resumedate" style="padding-bottom: 2vh; padding-top:1vh;">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Researched various technologies like ML, AI, RPA, OCR and IDP to find a solution to optimize a prospective client's (a restaurant master franchise holder) document processing system, involving over 20000 invoices, purchase orders, and receipts each month. Conducted additional detailed research on RPA and ElectroNeek - an RPA vendor - to explore the benefits and drawbacks of partnering with them. Summarized my analysis and findings in a report and provided a recommendation, which was approved by the prospective client and is currently being implemented by Ideal MCS.</div>
 						
 					<div class="resumecompany">Automated Testing Intern @ Wipro, Bangalore</div>
 					<div class="resumedate">July 2019 - August 2019</div>
-					<div class="resumedate" style="padding-bottom: 2vh; padding-top:1vh;">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Used Tricentis Tosca, an automated software testing tool, to check the capability of web applications made for clients by using end-to-end testing. Identified and reported functionality issues with applications and provided possible solutions back to the development team. Trained 6 new team members with the skill set required to create automated tests using Tricentis Tosca and supervised their work to ensure timely completion.</div>
 					
 					<div class="resumecompany">Mobile App Development Intern @ Wipro, Bangalore</div>
 					<div class="resumedate">July 2018 - August 2018</div>
-					<div class="resumedate" style="padding-bottom: 2vh; padding-top:1vh;">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Collaborated with 5 people to develop a mobile plan subscription application using React Native and mongoDB to store user login details and profile information. Built functionality to allows users to seamlessly register, login, choose a mobile plan, checkout and view mobile plan details. Led weekly discussions with the project coordinator to understand the client's requirements for planning and design the application.</div>
 					
 					<div class="resumecompany">Student Intern @ Dunia Finance - Young Business Leaders Program</div>
 					<div class="resumedate">July 2016 - July 2016</div>
-					<div class="resumedate" style="padding-bottom: 2vh; padding-top:1vh;">______________________________</div>
-					<div class="resumedetail" style="margin-bottom: 3vh;">Built an intensive business development plan by building financial models and a marketing plan for an online tutoring startup with forecasted profits of $55 million over 5 years. Won the "Leadership through Collaboration" award and came first place for "New Venture Business Plan".</div>
+					<div class="rectangle"></div>
+					<div class="resumedetail">Built an intensive business development plan by building financial models and a marketing plan for an online tutoring startup with forecasted profits of $55 million over 5 years. Won the "Leadership through Collaboration" award and came first place for "New Venture Business Plan".</div>
 					
 				</div>
-				<div class="profile" style="margin-bottom: 0vh;">
+				<div class="profile">
 					<div class="aboutsubtitle">EDUCATION</div>
 					
 					<div class="resumecompany">Australian National University, Canberra</div>
 					<div class="resumedate">July 2020 - March 2022</div>
-					<div class="resumedetail" style="padding-top: 0vh;">Bachelor of Science in Computer Science, Minors in Mathematics and Applied Stats (Transferred from UIUC)</div>
+					<div class="resumedetail">Bachelor of Science in Computer Science, Minors in Mathematics and Applied Stats (Transferred from UIUC)</div>
 					
-					<div class="resumecompany" style="padding-top: 2vh;">University of Illinois at Urbana-Champaign (UIUC), Illinois</div>
+					<div class="resumecompany">University of Illinois at Urbana-Champaign (UIUC), Illinois</div>
 					<div class="resumedate">September 2017 - May 2020</div>
-					<div class="resumedetail" style="padding-top: 0vh;">Bachelor of Science in Computer Science and Economics</div>
+					<div class="resumedetail">Bachelor of Science in Computer Science and Economics</div>
 					
-					<div class="resumecompany" style="padding-top: 2vh;">Raffles World Academy (RWA), Dubai</div>
+					<div class="resumecompany">Raffles World Academy (RWA), Dubai</div>
 					<div class="resumedate">September 2011 - June 2017</div>
-					<div class="resumedetail" style="padding-top: 0vh;">IB Diploma</div>
+					<div class="resumedetail">IB Diploma</div>
 					
-										
-					<div class="aboutsubtitle" style="margin-top: 3vh">LEADERSHIP EXPERIENCE</div>
+					
+					<div class="aboutsubtitle" style="margin-top: 50px">LEADERSHIP EXPERIENCE</div>
 					
 					<div class="resumecompany">UIUC Association of Computing Machinery</div>
 					<div class="resumedate">September 2018 - May 2020</div>
-					<div class="resumedate" style="padding-top: 0vh">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Worked with 5 members to build a car racing game using Unity. Developed a mobile app with 1 member to make notes using JavaScript which received over 5000 downloads over 6 months.</div>
 					
 					<div class="resumecompany">UIUC Economics Club</div>
 					<div class="resumedate">September 2018 - May 2020</div>
-					<div class="resumedate" style="padding-top: 0vh">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Worked with 20 members to organize networking events with over 500 attendees. Worked with the logistics team to find event venues, organized the event layouts, and created promotional material.</div>
 					
 					<div class="resumecompany">UIUC Rotaract Club</div>
 					<div class="resumedate">February 2018 - May 2020</div>
-					<div class="resumedate" style="padding-top: 0vh">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Collaborated with 40 members to organize sales and donation drives every two months and raised over $5000.</div>
 					
 					<div class="resumecompany">President, RWA Interact Club</div>
 					<div class="resumedate">May 2014 - November 2016</div>
-					<div class="resumedate" style="padding-top: 0vh">______________________________</div>
+					<div class="rectangle"></div>
 					<div class="resumedetail">Initiated weekly volunteering at a residential care for special needs children and donated used books &amp; toys regularly. Initiated a ‘Teaching Buddies’ program to teach English to the helping staff (25 people) at RWA every weekend. Organized a pledge run and bake sales to raise AUD 4000 to rebuild homes destroyed by the 2015 earthquakes in Nepal.</div>
-					
-					<div class="resumecompany">TEDx Youth</div>
-					<div class="resumedate">September 2015 - November 2016</div>
-					<div class="resumedate" style="padding-top: 0vh">______________________________</div>
-					<div class="resumedetail">Supervised the IT Team and assisted in hosting an event attended by over 150 people.</div>
-					
 				</div>
 			</div>
 		</div>
-			
-			
-			
+		
+		
+		
 		<div class="downloadbtn">
-			<a href="files/Resume.pdf" download="Shikhar Chaudhary Resume">
+			<a href="src/Resume.pdf" download="Shikhar Chaudhary Resume">
 				<button class="btn" title="Download my Resume">Download Resume</button>
 			</a>
 		</div>
@@ -152,46 +183,38 @@
 	<div id="projects">
 		<div class="title">Personal Projects</div>
 		<div class="subtitle">Check out some of my personal projects below</div>
-		<div class="subtitle" style="color: #fff; margin-top: 20vh;">Currently in development...</div>
+		<div class="subtitle" style="color: #fff; margin-top: 100px;">Currently in development...</div>
 	</div>
 	
 	<div id="contact">
 		<div class="title" style="color: #fff;">Contact Me</div>
 		<div class="subtitle" style="color: #fff;">Feel free to reach out to me, I'd love to hear from you!</div>
 		
-		<div class="contactinfo" style="margin-left: 10vw; margin-right: 10vw">
+		<div class="contactinfo">
 			<div class="contactdet">
 				<a href="tel:+61261003197">
-					<img src="images/Phone.png" alt="My phone number" style="width:10vh;height:10vh;">
-				</a>
-				<br><br>
-				<div class="contacttext" style="margin-bottom: 1vh;">Call Me At</div>
-				
-				<a href="tel:+61261003197" style="text-decoration: none;">
-					<div class="contacttext">+61 (02) 6100 3197</div>
+					<img src="src/Phone.png" alt="My phone number" style="width:80px;height:80px;"></a>
+				<div class="contacttext">Call Me At</div>
+				<a href="tel:+61261003197" style="color:deepskyblue">
+					<div class="contactlink">+61 (02) 6100 3197</div>
 				</a>
 			</div>
 			
 			<div class="contactdet">
 				<a href="mailto:chaudhary.shikhar@gmail.com">
-					<img src="images/Email.png" alt="My email address" style="width:10vh;height:10vh;">
-				</a>
-				<br><br>
-				<div class="contacttext" style="margin-bottom: 1vh;">Email Me At</div>
-				
-				<a href="mailto:chaudhary.shikhar@gmail.com" style="text-decoration: none;">
-					<div class="contacttext">chaudhary.shikhar@gmail.com</div>
+					<img src="src/Email.png" alt="My email address" style="width:80px;height:80px;"></a>
+				<div class="contacttext">Email Me At</div>
+				<a href="mailto:chaudhary.shikhar@gmail.com" style="color: deepskyblue;">
+					<div class="contactlink">chaudhary.shikhar@gmail.com</div>
 				</a>
 			</div>
 			
 			<div class="contactdet">
-				<a href="https://www.linkedin.com/in/shikharchaudhary/">
-					<img src="images/Linkedin.png" alt="My LinkedIn profile" style="width:10vh;height:10vh;"></a>
-				<br><br>
-				<div class="contacttext" style="margin-bottom: 1vh;">Let's Connect</div>
-				
-				<a href="https://www.linkedin.com/in/shikharchaudhary/" style="text-decoration: none;">
-					<div class="contacttext">LinkedIn Profile</div>
+				<a href="https://www.linkedin.com/in/shikharchaudhary/" target="_blank">
+					<img src="src/Linkedin.png" alt="My LinkedIn profile" style="width:80px;height:80px;"></a>
+				<div class="contacttext">Let's Connect</div>
+				<a href="https://www.linkedin.com/in/shikharchaudhary/" style="color: deepskyblue;" target="_blank">
+					<div class="contactlink">LinkedIn Profile</div>
 				</a>
 			</div>
 		</div>
