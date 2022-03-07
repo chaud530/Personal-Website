@@ -64,6 +64,7 @@ html {
 	background-attachment: fixed;
 	padding-bottom: 300px;
 	width: 100%;
+	min-width: 700px;
 }
 .homefont {
 	font-size: 80px;
@@ -86,6 +87,7 @@ html {
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
+	min-width: 700px;
 }
 .title {
 	font-size: 36px;
@@ -190,6 +192,7 @@ html {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	min-width: 700px;
 }
 .resumeinfo {
 	padding-top: 100px;
@@ -238,13 +241,14 @@ html {
 	background-position: center;
 	background-size: cover;
 	padding-bottom: 100px;
+	min-width: 700px;
 }
 
 
 
 #contact {
 	background-color: #555;
-	padding-bottom: 50px;
+	min-width: 700px;
 }
 
 .contactinfo {
@@ -259,7 +263,9 @@ html {
 
 .contactdet {
 	display: inline-block;
-	margin-right: 50px;
+	margin-bottom: 50px;
+	margin-right:2%;
+	margin-left:2%;
 }
 
 .contacttext {
@@ -431,7 +437,7 @@ html {
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   	.profile {
    		width: 100%;
   	}
